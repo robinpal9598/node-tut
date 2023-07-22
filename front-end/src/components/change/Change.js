@@ -12,7 +12,7 @@ function Change() {
     }, []);
     const params = useParams();
     const changeContent = async () => {
-
+//Fetching the data from the API and filling the initial entries to the change component
         let result = await fetch(`http://localhost:5000/product/${params.id}`);
         result = await result.json();
         console.warn(result);

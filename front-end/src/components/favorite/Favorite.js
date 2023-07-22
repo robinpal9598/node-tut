@@ -30,7 +30,7 @@ function Favorite(props) {
   }
   useEffect(() => {
     favorite();
-    
+
 
   }, [flag]);
 
@@ -64,7 +64,7 @@ function Favorite(props) {
             <li className="list-group-item">{props.company}</li>
             <li className="list-group-item">{props.category}</li>
           </ul>
-         
+
           <button onClick={() => handleDelete(props._id)} className='delete'>Delete Products</button>
 
         </div>)

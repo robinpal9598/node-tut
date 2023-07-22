@@ -59,7 +59,7 @@ function DisplayProd(props) {
     }
     return (
 
-        <div className='dispalyProd mx-2 my-3 ' style={{ "width": "400px", "display": "inline-block", "backgroundColor": "skyblue" }} >
+        <div className='dispalyProd mx-2 my-3' style={{ "width": "400px", "display": "inline-block", "backgroundColor": "skyblue" }} >
 
 
             <div className="card my-3 " style={{ "width": "390px", "justifyContent": "center" }}>
